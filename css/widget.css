@@ -1,0 +1,43 @@
+.widget{
+    width: 500px;
+    background-color: #8a2be3;
+    padding-bottom: 10px;
+}
+.w-screen{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+}
+.w-keyboard{
+    border: 3px solid white;
+    padding-top: 2%;
+    border-radius: 20px;
+    margin:10px;
+}
+.w-row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+
+}
+.w-button{
+    flex-basis: 23%;
+    height: 50px;
+    margin-bottom: 2%;
+    border: 3px solid white;
+    color: #29336d;
+    background-color: #dda2a2;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.w-button:hover{
+    background-color: #29336d;
+    color: #dda2a2;
+}
+.tre{
+    flex-basis: 32%;
+}
+.due{
+    flex-basis: 48.5%;
+}
