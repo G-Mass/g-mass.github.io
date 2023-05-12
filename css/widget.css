@@ -1,34 +1,34 @@
 .widget{
-    width: 500px;
+    width: 80%;
     background-color: #8a2be3;
-    padding-bottom: 10px;
+     padding-bottom:0.1rem;
+     margin: 0 auto;
 }
 .w-screen{
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     color:white;
 }
 .w-keyboard{
-    border: 3px solid white;
+    border: 0.3rem solid white;
     padding-top: 2%;
-    border-radius: 20px;
-    margin:10px;
+    border-radius: 1.4rem;
+    margin:2%;
 }
 .w-row{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-
+    margin-bottom: 2%;
 }
 .w-button{
     flex-basis: 23%;
-    height: 50px;
-    margin-bottom: 2%;
-    border: 3px solid white;
+    height:3rem;
+    border: .2rem solid white;
     color: #29336d;
     background-color: #dda2a2;
-    border-radius: 20px;
-    font-size: 16px;
+    border-radius: 1.4rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 .w-button:hover{
