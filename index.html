@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,8 @@
     <link href="css/widget.css" rel="stylesheet">
 </head>
 <body>
+    <!--<script src="js/widgetScript.js"></script>-->
+    <!-- I found out why it wasn't working. I simply had to source the script after the widget. I now understand the rookie mistake that I was making. Originally I was sourcing the script up here and the browser console was giving an error after line 3 column 11. Apparently i first have to give the browser the element before I call element.addEventListener()-->
     <h1>
         Start
     </h1>
@@ -18,61 +20,63 @@
     <div class="widget">
         <!-- Questo è un tentativo di costruire una sorta di widget simile alla calcolatrice che abbiamo visto nel bootcamp di FEM-->
         <div class="w-screen">
-            Placeholder
+            #
         </div>
 
         <div class="w-keyboard">
             <div class="w-row">
                 <button class="w-button">
-                    PH
+                    A
                 </button>
                 <button class="w-button">
-                    PH
+                    B
                 </button>
                 <button class="w-button">
-                    PH
+                    C
                 </button>
                 <button class="w-button">
-                    PH
+                    D
                 </button>
             </div>
 
             <div class="w-row">
                 <button class="w-button tre">
-                    PH
+                    E
                 </button>
                 <button class="w-button tre">
-                    PH
+                    F
                 </button>
                 <button class="w-button tre">
-                    PH
+                    G
                 </button>
             </div>
 
             <div class="w-row">
                 <button class="w-button">
-                    PH
+                    H
                 </button>
                 <button class="w-button">
-                    PH
+                    I
                 </button>
                 <button class="w-button">
-                    PH
+                    J
                 </button>
                 <button class="w-button">
-                    PH
+                    K
                 </button>
             </div>
 
             <div class="w-row">
                 <button class="w-button due">
-                    PH
+                    spazio
                 </button>
                 <button class="w-button due">
-                    PH
+                    cancella
                 </button>
             </div>
         </div>
     </div>
+    <script src="js/widgetScript.js"></script>
+    <!--Now it's in the correct spot!-->
 </body>
 </html>
