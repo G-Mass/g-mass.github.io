@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: teal;
+}
+
+.box{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes spin {
+    to {transform: rotateZ(360deg)}
+}
+
+.loading{
+    color: #ffed4d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    border: .25rem solid #002846;
+    text-align: center;
+    border-radius: 100%;
+    padding: 1rem;
+
+
+    /* What's above is just styling */
+    /* Below is the animation */
+
+    animation: spin linear 2s infinite; 
+}
+
+.dog{
+    max-height: 500px;
+}
+
+.dontshow{
+    display: none;
+}
