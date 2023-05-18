@@ -6,6 +6,10 @@ body{
     background-color: teal;
 }
 
+p{
+    text-align: center;
+}
+
 .box{
     padding: 3rem;
     display: flex;
